@@ -1,5 +1,6 @@
 {
   "name": "horror-game",
+  "homepage" : "https://imansour12.github.io/my-site-host/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

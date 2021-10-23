@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.15814c44.chunk.css",
-    "main.js": "/static/js/main.ecfe30cf.chunk.js",
-    "main.js.map": "/static/js/main.ecfe30cf.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.79ea0695.js",
-    "runtime-main.js.map": "/static/js/runtime-main.79ea0695.js.map",
-    "static/css/2.0a9ec390.chunk.css": "/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.a27a0976.chunk.js": "/static/js/2.a27a0976.chunk.js",
-    "static/js/2.a27a0976.chunk.js.map": "/static/js/2.a27a0976.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.0a9ec390.chunk.css.map": "/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.15814c44.chunk.css.map": "/static/css/main.15814c44.chunk.css.map",
-    "static/js/2.a27a0976.chunk.js.LICENSE.txt": "/static/js/2.a27a0976.chunk.js.LICENSE.txt",
-    "static/media/retro vapor wave abstract live wallpaper [chec4_NfVDk].ab67be84.mp4": "/static/media/retro vapor wave abstract live wallpaper [chec4_NfVDk].ab67be84.mp4"
+    "main.css": "/my-site-host/static/css/main.15814c44.chunk.css",
+    "main.js": "/my-site-host/static/js/main.78005c49.chunk.js",
+    "main.js.map": "/my-site-host/static/js/main.78005c49.chunk.js.map",
+    "runtime-main.js": "/my-site-host/static/js/runtime-main.fe8e6f6b.js",
+    "runtime-main.js.map": "/my-site-host/static/js/runtime-main.fe8e6f6b.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/my-site-host/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.63e666d2.chunk.js": "/my-site-host/static/js/2.63e666d2.chunk.js",
+    "static/js/2.63e666d2.chunk.js.map": "/my-site-host/static/js/2.63e666d2.chunk.js.map",
+    "index.html": "/my-site-host/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/my-site-host/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.15814c44.chunk.css.map": "/my-site-host/static/css/main.15814c44.chunk.css.map",
+    "static/js/2.63e666d2.chunk.js.LICENSE.txt": "/my-site-host/static/js/2.63e666d2.chunk.js.LICENSE.txt",
+    "static/media/retro vapor wave abstract live wallpaper [chec4_NfVDk].ab67be84.mp4": "/my-site-host/static/media/retro vapor wave abstract live wallpaper [chec4_NfVDk].ab67be84.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.79ea0695.js",
+    "static/js/runtime-main.fe8e6f6b.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.a27a0976.chunk.js",
+    "static/js/2.63e666d2.chunk.js",
     "static/css/main.15814c44.chunk.css",
-    "static/js/main.ecfe30cf.chunk.js"
+    "static/js/main.78005c49.chunk.js"
   ]
 }
