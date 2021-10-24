@@ -5,6 +5,8 @@ import { Switch, Route } from "react-router";
 import ChangeLanguages from "./pages/ChangeLanguages";
 import VideoBackground from "./components/VideoBackground";
 import SiteBrokey from "./pages/SiteBrokey";
+import SignUp from "./pages/SignUp";
+import SignIn from "./pages/SignIn";
 
 console.log(
   `░░░░░▄▄▄▄▀▀▀▀▀▀▀▀▄▄▄▄▄▄░░░░░░░
@@ -33,6 +35,8 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/sitebrokey" compoenent={SiteBrokey} />
         <Route path="/languages" component={ChangeLanguages} />
+        <Route path="/signup" component={SignUp} />
+        <Route path="/signin" component={SignIn} />
       </Switch>
     </>
   );

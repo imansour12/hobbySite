@@ -27,8 +27,8 @@ function Navbar() {
                 </Link>
               </ReactBootStrap.Nav.Link>
               <ReactBootStrap.Nav.Link href="#pricing">
-                <Link className="basedLink" to="/pricing">
-                  Pricing
+                <Link className="basedLink" to="/languages">
+                  Change Language
                 </Link>
               </ReactBootStrap.Nav.Link>
               <ReactBootStrap.NavDropdown
@@ -59,12 +59,12 @@ function Navbar() {
               </ReactBootStrap.NavDropdown>
             </ReactBootStrap.Nav>
             <ReactBootStrap.Nav>
-              <ReactBootStrap.Nav.Link href="#deets">
-                <Link className="basedLink">More deets</Link>
+              <ReactBootStrap.Nav.Link>
+                <Link className="basedLink" to= "signin">Sign In</Link>
               </ReactBootStrap.Nav.Link>
               <ReactBootStrap.Nav.Link eventKey={2} href="#memes">
-                <Link className="basedLink" to="/languages">
-                  Change Language
+                <Link className="basedLink" to="/signup">
+                  Sign Up
                 </Link>
               </ReactBootStrap.Nav.Link>
             </ReactBootStrap.Nav>

@@ -22,6 +22,11 @@ const songs = [
 ];
 let songToPlay = songs[Math.floor(Math.random() * songs.length)];
 
+const handleSongFinishedPlaying = () => {
+  let songToPlay = songs[Math.floor(Math.random() * songs.length)];
+  return songToPlay;
+};
+
 function Serverloading() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [color, setColor] = useState("secondary");
@@ -59,7 +64,7 @@ function Serverloading() {
         playStatus={isPlaying ? Sound.status.PLAYING : Sound.status.STOPPED}
         // onLoading={handleSongLoading}
         // onPlaying={handleSongFinishedPlaying}
-        // onFinishedPlaying={handleSongFinishedPlaying}
+        onFinishedPlaying={handleSongFinishedPlaying}
       />
     </div>
   );

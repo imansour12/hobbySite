@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/components/NavbarStyles.css"],"names":[],"mappings":"AAAA,WACE,oBAAqB,CACrB,UACF","file":"main.15814c44.chunk.css","sourcesContent":[".basedLink {\r\n  text-decoration: none;\r\n  color: white;\r\n}\r\n"]}
