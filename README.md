@@ -8,3 +8,5 @@ Thanks to https://www.youtube.com/channel/UCe1NM6d7y7O1Q7ZKJ4lLSFw for showing m
 
 SIGN UP AND REGISTER PAGES (need these for later maybe):
 https://react-bootstrap.github.io/components/forms/
+
+Unlike facebook, instagram and other amateurs, we do not show you what you like to see, we show you the reality. This is a real world site. This way, we make sure you don't get addicted by constantly decreasing your self esteem.

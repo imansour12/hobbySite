@@ -20,7 +20,8 @@ const onFormSubmit = async (e) => {
     }
   );
 
-  console.log(res.data);
+  console.log(res.data.user);
+  alert("Account created successfully.  Please go to Sign In.");
 };
 
 function SignUpContainer() {
@@ -62,11 +63,7 @@ function SignUpContainer() {
             <Button
               variant="primary"
               type="submit"
-              onClick={() =>
-                setWarningMessage(
-                  "In case the page doesn't submit, please try again making sure that your name is at least three characters, and your password is at least 8 chracters"
-                )
-              }
+              onClick={() => setWarningMessage("Submitting")}
             >
               Submit
             </Button>
