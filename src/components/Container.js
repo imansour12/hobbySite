@@ -20,7 +20,14 @@ function Container(props) {
                   {props.text}
                 </p>
                 <Link to="/sitebrokey">
-                  <a className="btn btn-primary">{props.submit}</a>
+                  <a
+                    className="btn btn-primary"
+                    onClick={() =>
+                      alert("THIS FEATURE DOES NOT WORK STOP TRYING")
+                    }
+                  >
+                    {props.submit}
+                  </a>
                 </Link>
               </div>
 
