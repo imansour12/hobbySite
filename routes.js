@@ -8,5 +8,6 @@ export default (
     <Route path="/signup" />
     <Route path="/languages" />
     <Route path="/" />
+    <Route path="/payement" />
   </Switch>
 );
