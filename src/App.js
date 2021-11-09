@@ -9,6 +9,7 @@ import SiteBrokey from "./pages/SiteBrokey";
 import ChangeLanguages from "./pages/ChangeLanguages";
 import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
+import Payement from "./pages/Payement";
 
 // console.log(
 //   `░░░░░▄▄▄▄▀▀▀▀▀▀▀▀▄▄▄▄▄▄░░░░░░░
@@ -41,6 +42,7 @@ function App() {
         <Route path="/languages" component={ChangeLanguages} />
         <Route path="/signup" component={SignUp} />
         <Route path="/signin" component={SignIn} />
+        <Route path="/payement" component={Payement} />
       </Switch>
     </>
   );
