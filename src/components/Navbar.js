@@ -77,7 +77,7 @@ function Navbar() {
                 </Link>
               </ReactBootStrap.Nav.Link>
               <ReactBootStrap.NavDropdown
-                title="Different Things"
+                title="Contributors"
                 id="collasible-nav-dropdown"
                 onClick={() =>
                   setdifferentThingOptionsSoundClickPlaying("PLAYING")

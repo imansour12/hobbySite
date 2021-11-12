@@ -68,7 +68,6 @@ function Serverloading() {
         playStatus={isPlaying ? Sound.status.PLAYING : Sound.status.STOPPED}
         onFinishedPlaying={() => handleFinishedPlaying()}
       />
-      <div>test</div>
     </div>
   );
 }

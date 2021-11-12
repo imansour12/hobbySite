@@ -1,6 +1,6 @@
 import React from "react";
 import Serverloading from "../components/Serverloading";
-import Post from "../components/Post";
+import Posts from "../components/Posts";
 
 // Dear Programmer:
 // When I wrote this code, only god
@@ -19,20 +19,19 @@ import Post from "../components/Post";
 //if it does exist, render the home page
 
 export const isSignedIn = () => {
-  if (localStorage.getItem("auth-key") === null) {
+  if (localStorage.getItem("auth-token") === null) {
     return false;
-  } else if (localStorage.getItem("auth-key") !== null) {
+  } else if (localStorage.getItem("auth-token") !== null) {
     return true;
   }
 };
+
 const Home = (props) => {
-  return (
-    <>
-      {/*YES I TRIED TO DO CONDITONAL RENDERING, NO IT DID NOT WORK SO UNLESS YOU *CAN* MAKE IT WORK PLEASE BE QUIET. I JUST LOST AN HOUR TRYING TO DO THIS AND I WOKED TOO LONG FOR THE AUDIO SO BOTH ARE STAYING  */}
-      <Serverloading />
-      <Post />
-    </>
-  );
+  if (isSignedIn()) {
+    return <Posts />;
+  } else {
+    return <Serverloading />;
+  }
 };
 
 export default Home;

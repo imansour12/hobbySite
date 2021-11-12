@@ -1,25 +1,21 @@
 import React from "react";
-import axios from "axios";
+import { Card } from "react-bootstrap";
 
-const fetchData = async () => {
-  const authtoken = localStorage.getItem("auth-token");
-  const res = await axios.get(
-    "https://fakenewsnetwork.herokuapp.com/api/post",
-    {
-      headers: {
-        "Content-Type": "application/json",
-        "auth-token": authtoken,
-      },
-    }
-  );
-  console.log(res.data);
-};
-
-function Post() {
+function Post(props) {
+  console.log(props);
   return (
     <div>
-      I'm not gonna wipe my app
-      <button onClick={fetchData}></button>
+      <Card>
+        <Card.Body>
+          <h1> {props.moment.title}</h1>
+        </Card.Body>
+        <Card.Body>
+          <h3> {props.moment.description}</h3>
+        </Card.Body>
+        <Card.Body>
+          <sub> {props.moment.user}</sub>
+        </Card.Body>
+      </Card>
     </div>
   );
 }
