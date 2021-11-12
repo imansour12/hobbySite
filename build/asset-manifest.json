@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "./static/css/main.50fa9d3e.chunk.css",
-    "main.js": "./static/js/main.08fb73d5.chunk.js",
-    "main.js.map": "./static/js/main.08fb73d5.chunk.js.map",
+    "main.js": "./static/js/main.c5f31440.chunk.js",
+    "main.js.map": "./static/js/main.c5f31440.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.9b303e12.js",
     "runtime-main.js.map": "./static/js/runtime-main.9b303e12.js.map",
     "static/css/2.0a9ec390.chunk.css": "./static/css/2.0a9ec390.chunk.css",
-    "static/js/2.734accaf.chunk.js": "./static/js/2.734accaf.chunk.js",
-    "static/js/2.734accaf.chunk.js.map": "./static/js/2.734accaf.chunk.js.map",
+    "static/js/2.77990249.chunk.js": "./static/js/2.77990249.chunk.js",
+    "static/js/2.77990249.chunk.js.map": "./static/js/2.77990249.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.0a9ec390.chunk.css.map": "./static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.50fa9d3e.chunk.css.map": "./static/css/main.50fa9d3e.chunk.css.map",
-    "static/js/2.734accaf.chunk.js.LICENSE.txt": "./static/js/2.734accaf.chunk.js.LICENSE.txt",
+    "static/js/2.77990249.chunk.js.LICENSE.txt": "./static/js/2.77990249.chunk.js.LICENSE.txt",
     "static/media/retro vapor wave abstract live wallpaper [chec4_NfVDk].51938bb4.mp4": "./static/media/retro vapor wave abstract live wallpaper [chec4_NfVDk].51938bb4.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.9b303e12.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.734accaf.chunk.js",
+    "static/js/2.77990249.chunk.js",
     "static/css/main.50fa9d3e.chunk.css",
-    "static/js/main.08fb73d5.chunk.js"
+    "static/js/main.c5f31440.chunk.js"
   ]
 }
