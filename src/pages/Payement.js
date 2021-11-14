@@ -33,10 +33,6 @@ export async function payWithMetamask(sender, receiver, strEther) {
 }
 
 function Payement() {
-  alert(
-    "This feature is very very very very experimental use at your own risk or use ethers on a test network instead"
-  );
-
   const ethereum = window.ethereum;
   let ethereumAddress = ethereum.selectedAddress;
   const [senderAddr, setSenderAddr] = useState(ethereumAddress);

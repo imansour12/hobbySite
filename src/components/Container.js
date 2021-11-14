@@ -1,6 +1,5 @@
 import React from "react";
 import LanguagePicker from "./LanguagePicker";
-import { Link } from "react-router-dom";
 
 function Container(props) {
   return (
@@ -19,16 +18,16 @@ function Container(props) {
                 >
                   {props.text}
                 </p>
-                <Link to="/sitebrokey">
-                  <a
-                    className="btn btn-primary"
-                    onClick={() =>
-                      alert("THIS FEATURE DOES NOT WORK STOP TRYING")
-                    }
-                  >
-                    {props.submit}
-                  </a>
-                </Link>
+
+                <a
+                  href="/sitebrokey"
+                  className="btn btn-primary"
+                  onClick={() =>
+                    alert("THIS FEATURE DOES NOT WORK STOP TRYING")
+                  }
+                >
+                  {props.submit}
+                </a>
               </div>
 
               <LanguagePicker />

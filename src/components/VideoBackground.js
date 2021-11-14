@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import BackgroundVideo from "../assets/retro vapor wave abstract live wallpaper [chec4_NfVDk].mp4";
 
 function VideoBackground() {
-  const [blurry, setBlurry] = useState("blur(5px)");
-
   let videoStyles = {
     position: "absolute",
     width: "100%",
@@ -13,7 +11,7 @@ function VideoBackground() {
     objectFit: "cover",
     transform: "translate(-50%, -50%)",
     zIndex: "-1",
-    filter: blurry,
+    filter: "blur(5px)",
   };
   return (
     <div>

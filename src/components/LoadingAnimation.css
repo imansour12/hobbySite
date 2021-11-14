@@ -1,0 +1,15 @@
+/*center horizentally and vertically*/
+.loading-gif {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 10%;
+}
+
+.text {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
