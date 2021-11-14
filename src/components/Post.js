@@ -1,21 +1,29 @@
-import React from "react";
-import { Card } from "react-bootstrap";
+import React, { useState, useEffect } from "react";
+import { Card, Image } from "react-bootstrap";
+import "./Post.css";
 
 function Post(props) {
+  const [width, setWidth] = useState(window.innerWidth);
+  const breakpoint = 768;
+  useEffect(() => {
+    const handleWindowResize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => window.removeEventListener("resize", handleWindowResize);
+  }, []);
   return (
-    <div
-      style={{ marginLeft: "10%", marginRight: "10%", marginBottom: "5px " }}
-    >
+    <div className={width > breakpoint ? "post" : "postSmolScreen"}>
       <Card>
         <Card.Body>
-          <h1> {props.moment.title}</h1>
+          <h1> {props.post.title}</h1>
         </Card.Body>
         <Card.Body>
-          <h3> {props.moment.description}</h3>
+          <h3> {props.post.description}</h3>
         </Card.Body>
         <Card.Body>
-          <sub> {props.moment.user}</sub>
+          <sub> {props.post.user}</sub>
         </Card.Body>
+        <Image src={props.post.image} />
       </Card>
     </div>
   );

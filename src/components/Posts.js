@@ -28,9 +28,8 @@ const Posts = () => {
     return <LoadingAnimation />;
   } else {
     return posts.map((post) => {
-      return <Post moment={post} />;
+      return <Post post={post} />;
     });
   }
 };
-
 export default Posts;

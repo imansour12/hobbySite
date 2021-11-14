@@ -1,45 +1,54 @@
 [
   {
+    "key": 1,
     "name": "Ikea",
     "imageLink": "https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg",
     "alt": "Sweedish Flag"
   },
   {
+    "key": 2,
     "name": "English (Traditional)",
     "imageLink": "https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg",
     "alt": "United Kingdom's flag"
   },
   {
+    "key": 3,
     "name": "English (Simplified)",
     "imageLink": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
     "alt": "United States Flag"
   },
   {
+    "key": 4,
     "name": "English (Gibberish)",
     "imageLink": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Scotland.svg",
     "alt": "Scotland's flag"
   },
   {
+    "key": 5,
     "name": "Baguette",
     "imageLink": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg",
     "alt": "French Flag"
   },
   {
+    "key": 6,
     "name": "Hentai",
     "imageLink": "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg",
     "alt": "Japan's flag"
   },
   {
+    "key": 7,
     "name": "Korean(Good)",
     "imageLink": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
     "alt": "South Korea's flag"
   },
   {
+    "key": 8,
     "name": "Korean(Bad)",
     "imageLink": "https://upload.wikimedia.org/wikipedia/commons/5/51/Flag_of_North_Korea.svg",
     "alt": "North Korea's flag"
   },
   {
+    "key": 9,
     "name": "Vodka",
     "imageLink": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
     "alt": "Russian Flag"

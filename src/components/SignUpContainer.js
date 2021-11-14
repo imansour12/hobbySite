@@ -7,7 +7,6 @@ const onFormSubmit = async (e) => {
   e.preventDefault();
   const formData = new FormData(e.target),
     formDataObj = Object.fromEntries(formData.entries());
-  console.log(formDataObj);
   const res = await axios.post(
     "https://fakenewsnetwork.herokuapp.com/api/user/register",
     formDataObj,
@@ -20,7 +19,6 @@ const onFormSubmit = async (e) => {
     }
   );
 
-  console.log(res.data.user);
   alert("Account created successfully.  Please go to Sign In.");
 };
 

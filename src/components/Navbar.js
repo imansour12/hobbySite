@@ -5,6 +5,11 @@ import "./NavbarStyles.css";
 import Sound from "react-sound";
 import { isSignedIn } from "../pages/Home";
 
+// Dear Programmer:
+// When I wrote this code, only god
+// and I knew how it worked.
+// Now only god knows it
+
 //We do a little sound importing teehee
 const differentThingOptionsSoundClick =
   "https://www.mboxdrive.com/DiffThingsOptionButtonsClick.mp3";
