@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { Form, Button, Card } from "react-bootstrap";
 import "./SignInContainer.css";
+import loading from "../assets/loading2.gif";
 import axios from "axios";
 
 const saveJwt = (token) => {
@@ -26,10 +27,11 @@ const onFormSubmit = async (e) => {
 
   const token = res.data;
   saveJwt(token);
-  alert("Signed in with token");
+  alert("Signed in successfully, please go to homepage NOW!!");
 };
 
 function SignInContainer() {
+  const [loadingStatus, setLoadingStatus] = useState(false);
   return (
     <div className="signIn">
       <Card className="main" body>
@@ -53,9 +55,22 @@ function SignInContainer() {
           {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
           <Form.Check type="checkbox" label="Check me out" />
         </Form.Group> */}
-          <Button variant="primary" type="submit">
+          <Button
+            variant="primary"
+            type="submit"
+            onClick={() => setLoadingStatus(true)}
+          >
             Submit
           </Button>
+          <img
+            style={{
+              width: "40px",
+              height: "40px",
+              visibility: loadingStatus ? "visible" : "hidden",
+            }}
+            src={loading}
+            alt="loading..."
+          />
         </Form>
       </Card>
     </div>

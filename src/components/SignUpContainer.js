@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Form, Button, Card } from "react-bootstrap";
 import "./SignInContainer.css";
 import axios from "axios";
+import loading from "../assets/loading2.gif";
 
 const onFormSubmit = async (e) => {
   e.preventDefault();
@@ -23,7 +24,7 @@ const onFormSubmit = async (e) => {
 };
 
 function SignUpContainer() {
-  const [warningMessage, setWarningMessage] = useState(" ");
+  const [loadingStatus, setLoadingStatus] = useState(false);
   return (
     <div>
       <div className="signIn">
@@ -61,14 +62,20 @@ function SignUpContainer() {
             <Button
               variant="primary"
               type="submit"
-              onClick={() => setWarningMessage("Submitting")}
+              onClick={() => setLoadingStatus(true)}
             >
               Submit
             </Button>
+            <img
+              style={{
+                width: "40px",
+                height: "40px",
+                visibility: loadingStatus ? "visible" : "hidden",
+              }}
+              src={loading}
+              alt="loading..."
+            />
           </Form>
-          <div style={{ color: "red", fontWeight: "bold" }}>
-            {warningMessage}
-          </div>
         </Card>
       </div>
     </div>
